@@ -10,6 +10,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { LanguagesComponent } from './languages/languages.component';
 import { InterestsComponent } from './interests/interests.component';
+import { AppWorkComponent } from './app-work/app-work.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { AppLenguagesComponent } from './app-lenguages/app-lenguages.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { InterestsComponent } from './interests/interests.component';
     SkillsComponent,
     CertificatesComponent,
     LanguagesComponent,
-    InterestsComponent
+    InterestsComponent,
+    AppWorkComponent,
+    ExperienceComponent,
+    AppLenguagesComponent
   ],
   imports: [
     BrowserModule,

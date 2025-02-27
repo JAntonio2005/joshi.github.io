@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-skills',
+  selector: 'app-skills',  // El selector está correcto
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrls: ['./skills.component.css']  // Corregí 'styleUrl' por 'styleUrls'
 })
 export class SkillsComponent {
 
 }
+
